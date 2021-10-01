@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #FF5300;
+    --secondary-color: green;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+  }
+  
+  .section {
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  h1,
+  p {
+    color: rgb(255, 255, 255);
+  }
+  .label {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--secondary-color);
+  }
+  
+  input {
+    width: 90%;
+    padding: 1rem;
+    height: 20px;
+    display: block;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .cash-input {
+    display: none;
+  }
+  .change-returned {
+    display: none;
+  }
+  .error-Message {
+    padding-top: 1rem;
+    color: white;
+  }
+  #output {
+    margin: 1rem 0;
+  }
+  
+  #output table,
+  th,
+  td {
+    padding: 0.2rem;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+  }
+  .notes {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    word-wrap: break-word;
+  }
